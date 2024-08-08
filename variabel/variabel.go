@@ -11,8 +11,8 @@ func main() {
      *   Cara assign variabel
      */ 
     
-    var firstName string = "Rizki" //lansung assign value kedalam variabel yang tipe data nya string varibel
-    var lastName string // mendeklarasikan varibel dengan tipe data string tanpa assign value kedalam nya
+    var firstName string = "Rizki" //membuat variabel dan assign value kedalam variabel yang tipe data nya string
+    var lastName string // membuat varibel dengan tipe data string tanpa assign value kedalam nya
     lastName = "Pasaribu" // assign value Pasaribu lastname
     fmt.Printf("Halo %s %s!\n", firstName, lastName) //memanggil fungsi Printf yang terdapat dalam package fmt
     
@@ -22,9 +22,9 @@ func main() {
     // ! ||--------------------------------------------------------------------------------||
     
     /*
-     *   Assigment variabel tanpa tipe data
+     *   Assigment variabel tanpa tipe data (Type Interface)
      */
-    name := "wick" // deklarasikan varibel langsung tanpa tipe data, si golang bakalan tw bahwa ini tipe data nya string karna nilai yang di berikan adalah string
+    name := "wick" // deklarasikan varibel langsung tanpa tipe data dan kata var, si golang bakalan tw bahwa ini tipe data nya string karna nilai yang di berikan adalah string
     fmt.Printf("Halo %s!\n", name) //memanggil fungsi Printf yang terdapat dalam package fmt
     
     // ! ||--------------------------------------------------------------------------------||
