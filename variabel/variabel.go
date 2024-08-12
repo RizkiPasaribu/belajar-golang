@@ -8,7 +8,7 @@ func main() {
     // ! ||--------------------------------------------------------------------------------||
     
     /*
-     *   Cara assign variabel
+     *   Cara membuat variabel variabel
      */ 
     
     var firstName string = "Rizki" //membuat variabel dan assign value kedalam variabel yang tipe data nya string
@@ -22,7 +22,7 @@ func main() {
     // ! ||--------------------------------------------------------------------------------||
     
     /*
-     *   Assigment variabel tanpa tipe data (Type Interface)
+     *   Membuat variabel tanpa tipe data dan kata var cukup dengan nama variabel (Type Interface)
      */
     name := "wick" // deklarasikan varibel langsung tanpa tipe data dan kata var, si golang bakalan tw bahwa ini tipe data nya string karna nilai yang di berikan adalah string
     fmt.Printf("Halo %s!\n", name) //memanggil fungsi Printf yang terdapat dalam package fmt
@@ -32,7 +32,7 @@ func main() {
     // ! ||--------------------------------------------------------------------------------||
     
     /*
-     *   Assigment variabel underscore, variabel yang berguna untuk membuang nilai yang tidak digunakan, seperti tempat sampah
+     *   membuat variabel underscore, variabel yang berguna untuk membuang nilai yang tidak digunakan, seperti tempat sampah
      *   inti nya apapun nilai yang dimasukkan kedalam variabel tersebut tidak akan bisa di panggil ataupun digunakan akan menghilang sepenuh nya
      */ 
     _ = "belajar Golang"
